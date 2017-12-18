@@ -1,0 +1,29 @@
+v0.2 17.12.2017
+- dodano algorytm round-robin
+- dodano wyświetlanie czaus procesora
+- dodano opcję eksportu wyników dla algorytmu FCFS
+- obsługą zdarzeń zajmuje się od teraz dedykowana klasa
+- dodano możliwość pauzowania algorytmu (round-robin)
+
+v0.3 18.12.2017
+- dodano możliwość ręcznej zmiany FPS (15, 30, 45, 60)
+- dodano algorytm priorytetowy (bez postarzania)
+- dodano algorytm priorytetowy z wyw. (bez postarzania)
+- usprawnienia w UI
+- bug: (round-robin) niepoprawnie liczony czas procesora, jeśli procesor przechodzi do stanu idle
+
+
+
+
+
+
+
+
+
+TO DO:
+- algorytm Priority (z wyw.) - v0.3
+- eksport wyników dla SJF, SJF (z wyw.), Round-robin, Priority, Priority (z wyw.)
+- widok wyników na ekranie - v0.4
+- algorytmy stronicowania (FIFO, OPT, LRU)
+- pauza wszystkich algorytmów - v0.4
+
